@@ -1,0 +1,106 @@
+body {
+    font-family: 'Old Standard TT', sans-serif;
+}
+
+/* nav-bar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+} 
+
+.navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:active:focus {
+    background-color: rgba(255,255,255,0.125);
+    border: none; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius:0;
+    margin-bottom:0;
+    background-color:#ffc929;
+    border: none;
+    color: black;
+}
+
+.callout-container {
+    height: 100vh; 
+  background: url("/assets/images/Whiskey-Glass-And-Barrel.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+color: white;
+padding-top: 10%;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.quotes-container {}
+
+
+
+.monthly-favorites-container {}
+
+/* jumbotron */
+
+.jumbotron-heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* block dividers */
+
+.block-divider {
+    background-color: white;
+    width: 50%;
+}
+
+.btn-cta {
+    background-color: #e65700;
+    border-color:#e65700;
+    border-radius: 20px;
+    color: whitesmoke;
+
+}
+
+.btn-cta:hover,
+.btn-cta:focus,
+.btn-cta:active,
+.btn-cta:active:focus {
+    background-color:#973c03;
+    border-color:#642600;
+    outline: none;
+}
